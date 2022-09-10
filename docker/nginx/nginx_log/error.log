@@ -1,0 +1,10 @@
+2022/07/30 13:10:38 [emerg] 1#1: mkdir() "/var/www/cache" failed (2: No such file or directory)
+2022/07/30 13:13:10 [emerg] 1#1: mkdir() "/var/www/cache" failed (2: No such file or directory)
+2022/07/30 13:31:58 [emerg] 1#1: host not found in upstream "laravel" in /etc/nginx/conf.d/server.conf:32
+2022/07/30 13:33:20 [emerg] 1#1: host not found in upstream "laravel" in /etc/nginx/conf.d/server.conf:32
+2022/07/30 13:34:00 [emerg] 1#1: host not found in upstream "laravel" in /etc/nginx/conf.d/server.conf:32
+2022/07/30 13:35:30 [emerg] 1#1: host not found in upstream "laraproject" in /etc/nginx/conf.d/server.conf:32
+2022/08/20 17:05:40 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/server.conf:52
+2022/09/10 09:53:39 [emerg] 1#1: host not found in upstream "symfony" in /etc/nginx/conf.d/server.conf:79
+2022/09/10 09:55:39 [emerg] 1#1: host not found in upstream "symfony" in /etc/nginx/conf.d/server.conf:79
+2022/09/10 12:18:17 [emerg] 1#1: no port in upstream "balancer" in /etc/nginx/conf.d/server.conf:32
