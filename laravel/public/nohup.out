@@ -1,0 +1,9 @@
+New connection (69)
+Connection 69 sending message "Hello
+" to 1 other connectionNew connection (80)
+Connection 80 sending message "Hello, bro!
+" to 2 other connectionsNew connection (81)
+Connection 81 sending message "Hello, I am third :)
+" to 3 other connectionsClose connection (81)
+Close connection (80)
+Close connection (69)

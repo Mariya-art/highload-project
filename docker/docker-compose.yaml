@@ -183,6 +183,20 @@ services:
             networks:
                 - highload-network
 
+        rabbit:
+            container_name: rabbitMQ
+            build: ./rabbitMQ
+            networks:
+                - highload-network
+            ports:
+                - "5672:5672"
+                - "15672:15672"
+            volumes:
+                - ./rabbitMQ/data/mnesia:/var/lib/rabbitmq/mnesia
+                - ./rabbitMQ/log/:/var/log/rabbit:rw
+                - ./rabbitMQ/init.sh:/init.sh
+            hostname: rabbitMQ
+
 volumes:
     nginx_log:
     laravel_log:
